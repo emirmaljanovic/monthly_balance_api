@@ -1,0 +1,42 @@
+{
+  "name": "mb-api",
+  "version": "1.0.0",
+  "description": "Monthly Balance API",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emir Maljanovic",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "helmet": "^3.8.0",
+    "mongoose": "^4.11.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "del": "^3.0.0",
+    "eslint": "^4.3.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^3.1.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "vinyl-fs": "^2.4.4"
+  }
+}
